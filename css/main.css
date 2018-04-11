@@ -1,5 +1,6 @@
 /*Bootstrap Overrides*/
 body>nav {
+	font-weight: 100;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -8,13 +9,47 @@ nav {
 	background: linear-gradient(45deg,#1a1e5a 0,#122d98 100%);
 	background: -ms-linear-gradient(right, #0c93C0, #FFF); 
 	background: -o-linear-gradient(right, #0c93C0, #FFF);
+}
+
+.navbar {
+	padding: 1rem 0;
 	border-bottom: 5px solid #F2CA13;
 }
 
-nav.navbar {
-	padding-top: 1.5rem;
+.navbar-nav.nav-desktop {
+	margin-left: 2.4rem;
+	border-right: 1px solid rgba(255,255,255,.5);
 }
 
-.logo>img {
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255,255,255,.75);
+	padding: 1rem 2rem;
+}
+
+.navbar-brand>img {
 	height: 2.5rem;
 }
+
+.navbar-dark .navbar-nav .nav-link:hover, 
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #F2CA13;
+}
+
+.nav-marker {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 100px 100px 100px;
+	border-color: transparent transparent #F2CA13 transparent;
+	content: " ";
+	position: absolute;
+	border-width: 13px;
+	bottom: 0px;
+	display: none;
+}
+
+.material-icons { 
+	color: rgba(242, 202, 19, 1); 
+	font-size: 2.5rem;
+}
+
