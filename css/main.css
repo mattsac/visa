@@ -1,0 +1,20 @@
+/*Bootstrap Overrides*/
+body>nav {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+nav {
+	background: linear-gradient(45deg,#1a1e5a 0,#122d98 100%);
+	background: -ms-linear-gradient(right, #0c93C0, #FFF); 
+	background: -o-linear-gradient(right, #0c93C0, #FFF);
+	border-bottom: 5px solid #F2CA13;
+}
+
+nav.navbar {
+	padding-top: 1.5rem;
+}
+
+.logo>img {
+	height: 2.5rem;
+}
